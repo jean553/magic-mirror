@@ -31,7 +31,11 @@ Components:
 
 Note there is no need for actually sticking or screwing the mirror plate on the screen: in my version, the plate simply leans against the monitor; just be sure it won't slip;
 
+There is also no need for unmounting the monitor, neither it is necessary to take out only the LCD plate; as long as the screen is flat, the fact of being an actual monitor remains unoticed;
+
 ## Basics
+
+![image](pictures/003.jpg)
 
 ## AI images generation with voice
 
