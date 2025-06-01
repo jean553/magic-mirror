@@ -50,3 +50,16 @@ Setup in [basic configuration file](https://github.com/jean553/magic-mirror/blob
 ## Bank account balance
 
 ## Best flight prices
+
+![image](pictures/004.jpg)
+
+List daily best flight prices in the upcoming weeks for some preferred destinations.
+
+How it works ?
+ * basic scrapping (scrapping script not included in this repository),
+ * PHP command to extract the best flight price for each destination,
+ * building of a final Magic Mirror module file
+
+Example of [automatically generated JS module](https://github.com/jean553/magic-mirror/blob/master/configs/MMM-Plate-Tickets.js)
+
+Example of [extracting command for the scrapped data](https://github.com/jean553/magic-mirror/blob/master/commands/SyncPlaneTicketsCommand.php)
