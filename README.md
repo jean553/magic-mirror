@@ -22,7 +22,7 @@ Raspberry Pi Magic Mirror project, fully customized with:
 ## Hardware
 
 <div style="text-align: center;">
-    ![image](pictures/002.png)
+![image](pictures/002.png)
 </div>
 
 ## Basics
