@@ -47,6 +47,8 @@ Setup in [basic configuration file](https://github.com/jean553/magic-mirror/blob
 
 ## AI images generation with voice
 
+![image](pictures/005.png)
+
 ## Bank account balance
 
 Display the current bank account balance.
