@@ -49,6 +49,14 @@ Setup in [basic configuration file](https://github.com/jean553/magic-mirror/blob
 
 ## Bank account balance
 
+Display the current bank account balance.
+
+How it works ?
+ * basic scrapping (scrapping script not included in this repository),
+ * **tesseract-ocr** to automatically handle bank login visual random digicode,
+
+Recommendation for such external integrations: [Woob](https://woob.tech/)
+
 ## Best flight prices
 
 ![image](pictures/004.jpg)
@@ -60,6 +68,6 @@ How it works ?
  * PHP command to extract the best flight price for each destination,
  * building of a final Magic Mirror module file
 
-Example of [automatically generated JS module](https://github.com/jean553/magic-mirror/blob/master/configs/MMM-Plate-Tickets.js)
+Example of [automatically generated JS module](https://github.com/jean553/magic-mirror/blob/master/configs/MMM-Plane-Tickets.js)
 
 Example of [extracting command for the scrapped data](https://github.com/jean553/magic-mirror/blob/master/commands/SyncPlaneTicketsCommand.php)
