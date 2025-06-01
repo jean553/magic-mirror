@@ -1,11 +1,10 @@
 # Magic Mirror
 
 Raspberry Pi Magic Mirror project, fully customized with:
- * voice recognition (OpenAI Whisper),
- * AI images generation (OpenAI),
+ * AI images generation through voice recognition (**OpenAI Whisper**),
+ * bank account balance (**scrapping and tesseract-ocr**),
+ * best flight prices (**scrapping**),
  * Hacker News feed stream,
- * bank account balance,
- * best flight prices,
  * subway live timetable,
  * usual stuffs (weather, time, events...)
 
@@ -36,6 +35,15 @@ There is also no need for unmounting the monitor, neither it is necessary to tak
 ## Basics
 
 ![image](pictures/003.jpg)
+
+Features:
+ * date and time,
+ * upcoming national, international and personal events,
+ * weather,
+ * news feed (Y Combinator Hacker News),
+ * random compliments and love messages :two_hearts:
+
+Setup in [basic configuration file](https://github.com/jean553/magic-mirror/blob/master/configs/basic_config.js)
 
 ## AI images generation with voice
 
