@@ -23,6 +23,14 @@ Raspberry Pi Magic Mirror project, fully customized with:
 
 ![image](pictures/002.png)
 
+Components:
+ * Raspberry Pi 4 (2GB RAM version)
+ * LCD monitor
+ * Two way mirror plate ("spying mirror") with dimensions that fit the monitor (custom made by glazier craftsman)
+ * USB microphone
+
+Note there is no need for actually sticking or screwing the mirror plate on the screen: in my version, the plate simply leans against the monitor; just be sure it won't slip;
+
 ## Basics
 
 ## AI images generation with voice
