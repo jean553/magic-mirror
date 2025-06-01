@@ -49,6 +49,25 @@ Setup in [basic configuration file](https://github.com/jean553/magic-mirror/blob
 
 ![image](pictures/005.png)
 
+Generate an AI image based on a voice text.
+
+Required tools
+ * USB microphone,
+ * **arecord** and **sox** Linux tools,
+
+How it works ?
+ * a script continuously records audio input on the Raspberry Pi, making a new sound file of the recorded content every 5 seconds,
+ * every 5 seconds, the content of the audio file is checked. especially if there is some sound volume in the file, indicating the user has actually said something (usually "Hello" to make the mirror start listening for more complex content),
+ * if the audio file contains enough stuffs, then the mirror displays "Listening"; the script is now listening longer (15 seconds) for more content; the user can now pronounce the sentence he wants;
+ * the audio file is sent through HTTP to a remove server of mine running both **nginx** on front and an **Open AI Whisper model** (those models need a lot of resources to run, the Raspberry Pi is not able to handle such computing tasks, hence why the model is running remotely on a machine with enough resources),
+ * the text is extracted from the audio file and sent back as the HTTP response,
+ * the text content is now sent to OpenAI Image Generation API,
+ * some images are returned and displayed on the mirror
+
+[Local script for audio input listening](https://github.com/jean553/magic-mirror/blob/master/commands/mm_speech_to_text.sh)
+
+[AI image generation script](https://github.com/jean553/magic-mirror/blob/master/commands/ai_generation.py)
+
 ## Bank account balance
 
 Display the current bank account balance.
